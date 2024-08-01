@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<head>
+    <title>リバーシ</title>
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" href="./reversi_circle.css">
+</head>
+<body>
+    <div class="container">
+        <h2 id="turn">黒の番です</h2>
+        <table class="board">
+            <tr>
+                <td class="cell">
+                    <div class="stone"></div>
+                </td>
+                <td class="cell">
+                    <div class="stone"></div>
+                </td>
+                <td class="cell">
+                    <div class="stone"></div>
+                </td>
+                <td class="cell">
+                    <div class="stone"></div>
+                </td>
+                <td class="cell">
+                    <div class="stone"></div>
+                </td>
+                <td class="cell">
+                    <div class="stone"></div>
+                </td>
+                <td class="cell">
+                    <div class="stone"></div>
+                </td>
+                <td class="cell">
+                    <div class="stone"></div>
+                </td>
+            </tr>
+            <tr>
+                <td class="cell">
+                    <div class="stone"></div>
+                </td>
+                <td class="cell">
+                    <div class="stone"></div>
+                </td>
+                <td class="cell">
+                    <div class="stone"></div>
+                </td>
+                <td class="cell">
+                    <div class="stone"></div>
+                </td>
+                <td class="cell">
+                    <div class="stone"></div>
+                </td>
+                <td class="cell">
+                    <div class="stone"></div>
+                </td>
+                <td class="cell">
+                    <div class="stone"></div>
+                </td>
+                <td class="cell">
+                    <div class="stone"></div>
+                </td>
+            </tr>
+            <tr>
+                <td class="cell">
+                    <div class="stone"></div>
+                </td>
+                <td class="cell">
+                    <div class="stone"></div>
+                </td>
+                <td class="cell">
+                    <div class="stone"></div>
+                </td>
+                <td class="cell">
+                    <div class="stone"></div>
+                </td>
+                <td class="cell">
+                    <div class="stone"></div>
+                </td>
+                <td class="cell">
+                    <div class="stone"></div>
+                </td>
+                <td class="cell">
+                    <div class="stone"></div>
+                </td>
+                <td class="cell">
+                    <div class="stone"></div>
+                </td>
+            </tr>
+            <tr>
+                <td class="cell">
+                    <div class="stone"></div>
+                </td>
+                <td class="cell">
+                    <div class="stone"></div>
+                </td>
+                <td class="cell">
+                    <div class="stone"></div>
+                </td>
+                <td class="cell">
+                    <div class="stone"></div>
+                </td>
+                <td class="cell">
+                    <div class="stone"></div>
+                </td>
+                <td class="cell">
+                    <div class="stone"></div>
+                </td>
+                <td class="cell">
+                    <div class="stone"></div>
+                </td>
+                <td class="cell">
+                    <div class="stone"></div>
+                </td>
+            </tr>
+            <tr>
+                <td class="cell">
+                    <div class="stone"></div>
+                </td>
+                <td class="cell">
+                    <div class="stone"></div>
+                </td>
+                <td class="cell">
+                    <div class="stone"></div>
+                </td>
+                <td class="cell">
+                    <div class="stone"></div>
+                </td>
+                <td class="cell">
+                    <div class="stone"></div>
+                </td>
+                <td class="cell">
+                    <div class="stone"></div>
+                </td>
+                <td class="cell">
+                    <div class="stone"></div>
+                </td>
+                <td class="cell">
+                    <div class="stone"></div>
+                </td>
+            </tr>
+            <tr>
+                <td class="cell">
+                    <div class="stone"></div>
+                </td>
+                <td class="cell">
+                    <div class="stone"></div>
+                </td>
+                <td class="cell">
+                    <div class="stone"></div>
+                </td>
+                <td class="cell">
+                    <div class="stone"></div>
+                </td>
+                <td class="cell">
+                    <div class="stone"></div>
+                </td>
+                <td class="cell">
+                    <div class="stone"></div>
+                </td>
+                <td class="cell">
+                    <div class="stone"></div>
+                </td>
+                <td class="cell">
+                    <div class="stone"></div>
+                </td>
+            </tr>
+            <tr>
+                <td class="cell">
+                    <div class="stone"></div>
+                </td>
+                <td class="cell">
+                    <div class="stone"></div>
+                </td>
+                <td class="cell">
+                    <div class="stone"></div>
+                </td>
+                <td class="cell">
+                    <div class="stone"></div>
+                </td>
+                <td class="cell">
+                    <div class="stone"></div>
+                </td>
+                <td class="cell">
+                    <div class="stone"></div>
+                </td>
+                <td class="cell">
+                    <div class="stone"></div>
+                </td>
+                <td class="cell">
+                    <div class="stone"></div>
+                </td>
+            </tr>
+            <tr>
+                <td class="cell">
+                    <div class="stone"></div>
+                </td>
+                <td class="cell">
+                    <div class="stone"></div>
+                </td>
+                <td class="cell">
+                    <div class="stone"></div>
+                </td>
+                <td class="cell">
+                    <div class="stone"></div>
+                </td>
+                <td class="cell">
+                    <div class="stone"></div>
+                </td>
+                <td class="cell">
+                    <div class="stone"></div>
+                </td>
+                <td class="cell">
+                    <div class="stone"></div>
+                </td>
+                <td class="cell">
+                    <div class="stone"></div>
+                </td>
+            </tr>
+        </table>
+        <button onclick="restart()">始めから</button>
+    </div>
+</body>
+<script src="reversi_circle.js" defer ></script>

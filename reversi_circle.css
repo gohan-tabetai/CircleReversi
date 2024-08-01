@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;560&display=swap');
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    margin: 0;
+}
+.container{
+    text-align: center;
+    margin: 10px;
+}
+table {
+    border-collapse: collapse;
+}
+.cell {
+    background: #009133;
+    width: 50px;
+    height: 50px;
+    border: 0px solid #000;
+    position: relative;
+}
+.stone{
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    position: absolute; 
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%);
+}
+.point{
+    width: 10px;
+    height: 10px;
+    background: #000;
+}
+.black{
+    background: #000;
+}
+.white{
+    background: #ffffff;
+}
+
+button{
+    margin:10px;
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: #ffffff;
+    color: #000000;
+    border: 1px solid #000;
+    border-radius: 5px;
+    cursor: pointer;
+}
